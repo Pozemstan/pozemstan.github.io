@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {  
+  display: flex;
+  position: fixed;
+  width: 978px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: purple;
+  justify-content: space-evenly;
+  align-items: center;  
+  z-index: 1;
+  padding: 0 150px;
+}
+a {
+  font-size: 52px;
+  color: aqua;
+  text-decoration: none;  
+}
+#achievements {
+  padding-top: 150px;
+  margin-top: 200px;
+}
+#experience {
+  padding-top: 150px;
+  margin-top: 215px;
+}
+#training {
+  padding-top: 150px;
+  margin-top: 300px;
+}
+ul.first {
+  list-style-type: square;
+  margin-bottom: 460px;
+  }
+a:hover {
+  color: yellow;
+}
+div {  
+  display: flex;  
+  margin: auto;
+  margin-top: 100px;
+  width: 1278px;
+  flex-direction: row;
+}
+section {
+  flex: 4;
+}
+header {  
+  height: 700px;  
+  background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 100px;
+}
+h1 {  
+  font-family: 'Abril Fatface', cursive; 
+  color: #222;  
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120px;
+  position: absolute;
+  bottom: 70px;
+  left: 100px;
+}
+span {  
+  display: block;
+  font-size: 120px;  
+}
+main {  
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;    
+  flex: 5;
+}
+blockquote {
+  font-family: 'Abril Fatface', cursive; 
+  font-size: 96px;
+  padding: 90px 48px;  
+  background: orange;
+  color: maroon;  
+  margin-top: 242px;  
+  position: relative;
+}
+blockquote::before {
+  content: '”';  
+  position: absolute;
+  transform: rotate(180deg);
+  font-size: 280px;
+  top: -200px;
+  left: 0;
+}
+h2, h3, h4, p {
+  margin: 0 48px;  
+  font-size: 18px;
+} 
+ul {
+  margin-left: 84px;
+  margin-top: 24px;
+  margin-bottom: 36px;
+  line-height: 24px;
+}
+.first {
+  padding-top: 180px;
+  margin-top: -150px;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: -1px;  
+    }
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-size: 36px;
+  font-weight: 600;  
+  margin-bottom: 36px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1.3px;
+  line-height: 36px;
+  color: black;  
+}
+p {
+  margin-top: 24px;
+  margin-bottom: 36px;
+  line-height: 24px;
+  letter-spacing: -1px;  
+}
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin-bottom: 24px;
+  color: black;
+}
+hr {
+  height: 3px;
+  background: black;
+}
